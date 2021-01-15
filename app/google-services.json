@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "325748978144",
+    "firebase_url": "https://radha-soami-33d78.firebaseio.com",
+    "project_id": "radha-soami-33d78",
+    "storage_bucket": "radha-soami-33d78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325748978144:android:6a4ac975c4797e6c",
+        "android_client_info": {
+          "package_name": "com.radhasoamisatsangbeas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325748978144-a98ppeti8gi7ffbdgq3aab1u0rffv5bl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.radhasoamisatsangbeas",
+            "certificate_hash": "5e2ece822377ee0a663a0360c26fc2bf6a6cfbf4"
+          }
+        },
+        {
+          "client_id": "325748978144-62htfrq98hndou676ii06v48766m9d0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8zgqo3cWRorHO0PKsBcjasqU5k83RC2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325748978144-62htfrq98hndou676ii06v48766m9d0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

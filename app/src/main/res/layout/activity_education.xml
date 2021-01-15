@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.core.widget.NestedScrollView
+    android:layout_above="@+id/rl_googleAd"
+    android:layout_width="match_parent"
+    android:background="@color/colorYellow"
+    android:layout_height="match_parent"
+    tools:context=".OverviewActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_school"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/background"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/edu_1"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/vision"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/edu_2"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/curriculam"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/edu_3"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_class_1"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_class_2"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/classroom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/curriculam_primary"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/edu_4"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/curriculam_middle"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/edu_5"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/teaching_method"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/edu_6"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/teaching_method_middle"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/edu_7"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/assessment"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/edu_8"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/parent_participation"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/edu_9"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/excursions"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/edu_10"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_field"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/field_trips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/celebrations"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/edu_11"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/character_building"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/edu_12"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_morning"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/morning_assembly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textStyle="bold"
+                android:text="@string/house_system"
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:textSize="24sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="@string/edu_13"
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:textStyle="bold"
+                android:text="@string/school_building"
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:textSize="24sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="@string/edu_14"
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_path_school"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/pathseeker_school"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_lang_lab"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/lang_lab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_comp_lab"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/comp_lab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/hobby"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/edu_15"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_music"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_dance"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/dance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_weave"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/weave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_craft"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/craft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_chef"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/little_chef"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_sculp"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/sculpture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_car"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/carpenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/lib"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/edu_16"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_lib"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/lib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/special_education"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/edu_17"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/central_dining"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/edu_18"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_dining"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/central_dining"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/labo"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/edu_19"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_compo"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/compo_lab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_robo"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/robo_lab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/best_practise"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/edu_20"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/student_well"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_sports_complex"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/sport_complex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/edu_21"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/playing_field"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/edu_22"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_yoga_tod"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/yoga_tod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_sack_race"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/sack_race"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_sports_period"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/sports_period"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:text="@string/edu_23"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_gym_pri"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/gym_pri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_yoga_pri"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/yoga_pri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_football"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/football_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_basket"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/basket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_judo"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/judo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_hockey"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/hockey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_bad"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/badminton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <TextView
+            android:text="@string/edu_24"
+            android:layout_marginHorizontal="@dimen/dimen_8dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_gym"
+
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/gym"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:background="@drawable/border_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/iv_annual"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_marginHorizontal="@dimen/dimen_8dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:text="@string/annual_sports"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+    <include layout="@layout/view_googlead"></include>
+</RelativeLayout>
